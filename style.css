@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #0f172a;
+  color: #e2e8f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.jogo {
+  max-width: 400px;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 8px;
+}
+
+form {
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin: 24px 0;
+}
+
+input {
+  width: 140px;
+  padding: 12px;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  background-color: #1e293b;
+  color: #e2e8f0;
+  font-size: 1rem;
+}
+
+button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #8b5cf6;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#dica {
+  font-size: 1.3rem;
+  font-weight: 700;
+  min-height: 32px;
+  margin-bottom: 8px;
+}
+
+#tentativas {
+  color: #94a3b8;
+}
+
+#reiniciar {
+  margin-top: 20px;
+  background-color: #22c55e;
+  color: #0f172a;
+}
+
+.escondido {
+  display: none; /* some da tela por completo */
+}
+
+.acertou {
+  color: #22c55e;
+}
+.maior {
+  color: #f59e0b;
+}
+.menor {
+  color: #38bdf8;
+}
